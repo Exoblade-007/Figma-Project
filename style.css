@@ -1,0 +1,819 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", serif;
+}
+.body{
+    font-family: "Inter", serif; 
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.chat_option{
+    display: flex;
+    gap: 15px;
+}
+.chat_with_us{
+    color: #27AE60;
+    display: flex;
+    gap: 5px;
+    border: 1px solid #27AE60;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+.call_us{
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    border: 1px solid;
+    border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+}
+.carrer_form{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.career_opportunities{
+    padding-top: 25px;
+}
+.career_opportunities span{
+    color: #2699FB;
+    background-image: url(images/Vector\ 63.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.career_opportunities h2{
+    font-family: inter;
+    font-size: 55px;
+    width: 588px;
+}
+.career_opportunities p{
+    padding-top: 30px;
+    font-size: 22px;
+}
+.key_points{
+    padding-top: 20px;
+}
+.key_points_info{
+    font-size: 22px;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+.form{
+    background-color: #E9F5FF;
+    width: 552px;
+    height: 552px;
+    border-radius: 50%;
+}
+
+
+
+.formPlace{
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+
+.insideForm {
+    width: 410px;
+    height: 491.9px; /* Adjusted to match the given height */
+    top: 134px;
+    left: 871px;
+    border-radius: 8px;
+    padding: 40px;
+    gap: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #1018280F, 0px 1px 3px 0px #1018281A;
+    box-sizing: border-box; /* Added box-sizing */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Added to move content to the bottom */
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Added box-sizing */
+}
+
+.phone-input {
+    display: flex;
+    gap: 8px;
+}
+
+.phone-input select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Added box-sizing */
+}
+
+.phone-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Added box-sizing */
+}
+
+.form-group button {
+    width: 330px;
+    height: 44px;
+    border-radius: 8px;
+    gap: 8px;
+    padding: 10px 18px;
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    border: 1px solid;
+    border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box; /* Added box-sizing */
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+.demo_button{
+    padding-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.days_demo{
+    color: white;
+    padding: 16px 48px;
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    border: 1px solid;
+    border-radius: 8px;
+    border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    box-shadow: 0px 4px 14px 2px #2699FB61;
+
+}
+.curriculam{
+    gap: 10px;
+    padding: 16px 28px;
+    display: flex;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px 0px #1018280F;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+
+}
+.student_package{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    width: 1170;
+    height: 146;
+    border-radius: 8px;
+    box-shadow: 0px 4px 80px -2px #002F5814;
+}
+.package_info{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.student_package h2{
+    color: #2699FB;
+}
+.course_info_bg{
+    background-color: #F7FAFF;
+    padding-bottom: 50px;
+}
+.course_info_heading{
+    width: 1170px;
+    margin: auto;
+}
+.course_info_heading h2{
+    font-size: 45px;
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+.course_info_heading p{
+    padding-bottom: 50px;
+}
+.course_points{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 30px;
+}
+.course_points1{
+    width: 370px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px -2px #002F5814;
+    border-radius: 8px;
+}
+.course_points1 img{
+    padding-left: 15px;
+}
+.course_points1 h4{
+    font-size: 24px;
+    padding-bottom: 15px;
+    color: #0A2134;
+    justify-content: flex-start;
+}
+.course_points1 h6{
+    color: #43505B;
+    justify-content: flex-start;
+}
+.book_free_class{
+    font-size: 16px;
+    width: 130px;
+    margin: auto;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 8px;
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    border: 1px solid;
+    border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    box-shadow: 0px 4px 14px 2px #2699FB61;
+
+
+}
+.book_free_class p{
+    text-align: center;
+}
+.carrer_option_digital_marketing{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.carrer_option_digital_marketing h3{
+    width: 461px;
+    margin: auto;
+    font-size: 44px;
+    padding-top: 50px;
+}
+.carrer_option_digital_marketing p{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.carrer_option_digital_marketing_box{
+    width: 270;
+    height: 278;
+    text-align: left;
+    border: Mixed solid #F2F4F7;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px -2px #002F5814;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.carrer_option_digital_marketing_box img{
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px 2px #F2F4F7;
+}
+.carrer_option_digital_marketing_box h4{
+    padding-top: 15px;
+}
+.carrer_option_digital_marketing_info{
+    display: flex;
+    gap: 25px;
+}
+.get_certified_bg{
+    background-color: #F7FAFF;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.get_certified{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+}
+.certified_left{
+    padding-top: 80px;
+}
+.get_certified_heading{
+    width: 586px;
+}
+.get_certified_heading h2{
+    padding-bottom: 15px;
+    font-size: 36px;
+}
+.get_certified_heading p{
+    font-size: 18px;
+}
+.get_certified_points{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.get_certified_box{
+    background-color: white;
+    padding: 22px;
+    box-sizing: border-box;
+    width: 570px;
+    display: flex;
+    box-shadow: 0px 0px 20px 3px #002F5814;
+    border-radius: 8px;
+    gap: 15px;
+}
+.get_certified_box img{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 3px #002F5814;;
+    background-color: #E9F5FF;
+}
+.get_certified_box h4{
+    font-size: 20px;
+    color: #0A2134;
+}
+.get_certified_box p{
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+    color: #0A2134;
+}
+.book_free_class1{
+    font-size: 16px;
+    width: 130px;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 8px;
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    border: 1px solid;
+    border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    box-shadow: 0px 4px 14px 2px #2699FB61;
+    text-align: center;
+}
+.certified_right{
+    position: relative;
+}
+.dot_image{
+    position: absolute;
+    top: 46px;
+    left: 44px;
+}
+.certificate_image{
+    position: absolute;
+    top: 64px;
+    left: 80px;
+    z-index: 1;
+}
+.circle_image{
+    position: absolute;
+    bottom: 0;
+    right: -585px;
+}
+.curriculam_digital_marketing{
+    background-color: white;
+    width: 1170px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.curriculam_digital_marketing_heading{
+    padding-top: 100px;
+}
+.curriculam_digital_marketing_heading h2{
+    width: 500px;
+    margin: auto;
+    font-size: 44px;
+    color: #0A2134;
+    display: flex;
+    justify-content: center;
+}
+.curriculam_digital_marketing_info p{
+    width: 700px;
+    margin: auto;
+    font-size: 18px;
+    color: #0A2134;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.curriculam_digital_marketing_points {
+    font-weight: 600;
+    font-size: 18px;
+    color: #0A2134;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.curriculam_digital_marketing_points div {
+    padding: 15px; /* Increased padding to give more area */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    position: relative;
+    transform: translateZ(0); /* Force hardware acceleration */
+}
+
+.curriculam_digital_marketing_points div:hover {
+    background-color: #F2F4F7; /* Grey color */
+    box-shadow: 0px 4px 20px -2px rgba(2, 47, 88, 0.14); /* Box shadow */
+}
+
+.curriculam_digital_marketing_points div::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #2699FB; /* Blue line */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 0 0 8px 8px;
+}
+
+.curriculam_digital_marketing_points div:hover::after {
+    opacity: 1;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.curriculam_digital_marketing_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    box-shadow: 0px 4px 20px -2px #002F5814;
+}
+.curriculam_digital_marketing_box1_info{
+    display: flex;
+    gap: 13px;
+    padding: 15px 20px ;
+    color: #0A2134;
+    width: 550px;
+    font-size: 22px;
+
+}
+.curriculam_digital_marketing_download{
+    padding-top: 30px;
+}
+.curriculam_digital_marketing_download_button{
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    border: 1px solid;
+    border-radius: 8px;
+    border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    box-shadow: 0px 4px 14px 2px #2699FB61; 
+    width: 288px;
+    margin: auto;
+    text-align: center;
+}
+.curriculam_digital_marketing_download_button p{
+    color: white;
+    padding: 15px;
+}
+.why_learn_digital_marketing_bg{
+    background-color: #F7FAFF;
+    padding-bottom: 100px;
+}
+.why_learn_digital_marketing{
+    width: 1170px;
+    margin: auto;
+}
+.why_learn_digital_marketing_heading h2{
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 75px;
+}
+.why_learn_digital_marketing_heading p{
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.why_learn_digital_marketing_points{
+    padding-top: 15px;
+}
+.why_learn_digital_marketing_points1{
+    display: flex;
+    gap: 38px;
+    padding: 15px 0px;
+}
+.why_learn_digital_marketing_points1_info{
+    width: 370px;
+    border-radius: 8px;
+    border-width: 1px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    border: 1px solid #F2F4F7
+}
+.why_learn_digital_marketing_points1_info_text{
+    padding: 40px 30px; 
+}
+.why_learn_digital_marketing_points1_info_text h4{
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.why_learn_digital_marketing_points1_info_text p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.what_student_saying{
+    width: 1170px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.what_student_saying_heading h2{
+    font-weight: 700;
+    font-size: 44px;
+    width: 461px;
+    margin: auto;
+    text-align: center;
+    line-height: 53.25px;
+}
+.what_student_saying_heading p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.what_student_saying_comment_image_name{
+    display: flex;
+    gap: 20px;
+    /* padding-top: 50px; */
+}
+.what_student_saying_comment{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.what_student_saying_comment_padding{
+    width: 570px;
+    height: 285px;
+    border-radius: 8px;
+    border-width: 1px;
+    border: 1px solid #F2F4F7;
+    box-shadow: 0px 4px 20px -2px #002F5814;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+.what_student_saying_comment_image_name_info{
+    padding-top: 20px;
+}
+.what_student_saying_comment_info{
+    padding-top: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+}
+.are_you_ready_start_course_bg{
+    width: 1170;
+    height: 384;
+    border-radius: 16px;
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    position: relative;
+}
+.are_you_ready_start_course_heading h3{
+    width: 535px;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 44px;
+    line-height: 53.25px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.are_you_ready_start_course_info p{
+    width: 536px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+
+}
+.book_free_class_white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 253px;
+    height: 60px;
+    border-radius: 8px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    box-sizing: border-box;
+    text-align: center;
+    gap: 8px;
+    box-shadow: 0px 1px 2px 0px #1018280F;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+    background-color: white;
+}
+.are_you_ready_start_course_button_white{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.book_free_class_white p{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+}
+.are_you_ready_start_course_image1 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.are_you_ready_start_course_image2 img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.digital_marketing_course_faq_bg{
+    background-color: #F7FAFF;
+    padding-top: 50px;
+    padding-bottom: 100px;  
+}
+.digital_marketing_course_faq{
+    width: 1170px;
+    margin: auto;
+}
+.digital_marketing_course_faq_heading h2{
+    font-weight: 700;
+    font-size: 44px;
+    width: 620px;
+    margin: auto;
+    text-align: center;
+    line-height: 53.25px;
+}
+.digital_marketing_course_faq_info p{
+    width: 639px;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.what_is_website_dovelopment_box1{
+    width: 770px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #2699FB;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+}
+.what_is_website_dovelopment_box1_info{
+    display: flex;
+    justify-content: space-between; 
+}
+.what_is_website_dovelopment_box1_info h4{
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #2699FB;
+}
+.what_is_website_dovelopment_box1_info_comment p{
+    width: 670px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0A2134;
+    padding-top: 10px;
+}
+.what_is_website_dovelopment_box2{
+    width: 770px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+}
+.what_is_website_dovelopment_box2_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 770px;
+    border-radius: 8px;
+    border-width: 1px;
+    background: #FFFFFF;
+    border: 1px solid #F2F4F7;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+
+}
+.what_is_website_dovelopment_book_free_class{
+    padding-top: 30px;
+}
+.top_companies_hiring_digital_marketing{
+    width: 1116px;
+    margin: auto;
+}
+.top_companies_hiring_digital_marketing h2{
+    width: 1029;
+    height: 44;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 80px;
+}
+.top_companies_hiring_digital_marketing img{
+    width: 1116;
+    height: 102;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.desciption_bg{
+    background-color: #0A2540;
+}
+.description_main hr{
+    color: #FFFFFF;
+}
+.description_logo{
+    width: 165.81817626953125;
+    margin: auto;
+    padding-top: 25px;
+}
+.description_info p{
+    width: 622px;
+    margin: auto;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+.description_link{
+    width: 270px;
+    margin: auto;
+    padding: 15px;
+    color: white;
+}
+.description_link p a{
+    text-decoration: underline;
+    color: white;
+}
